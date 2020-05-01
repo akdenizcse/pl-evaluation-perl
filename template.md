@@ -4,13 +4,14 @@ Perl
 
 - History of the language: who/when invented it, which languages influenced it, etc.
 
-- Why was it invented
+- Why was it invented?
 
-- When/why shall we use it
+- When/why shall we use it?
 
 Perl is a very good programming language which is used to do multiple task. A typical simple use of Perl would be for extracting information from a text file and printing out a report or for converting a text file into another form. But Perl provides a large number of tools for quite complicated problems, including systems programming.PERL is a language that interfaces with the front end HTML language and the backend database such as MySQL. Perl as a language has great support for string parsing and regular expressions.Perl is a programming language which can be used for a large variety of tasks. A typical simple use of Perl would be for extracting information from a text file and printing out a report or for converting a text file into another form. But Perl provides a large number of tools for quite complicated problems, including systems programming.Perl is the most powerful language to use when it comes to intensive text processing and image recognition.It works on all operating systems, that is, a language can be moved.Generally, Perl is used to create CGI scripts and to create various applications for web pages.Perl gives us a very strong service in case of intensive text processing or editing of regex expressions.OOP (Object Oriented Programming) uses functions quite well.
 
-- How to setup an environment to use it in different platforms
+- How to setup an environment to use it in different platforms?
+
 For Windows:
 Close the command prompt or terminal session. Go to the https://www.perl.org/get.html and click on the Download ActivePerl link for your operating system. If you are on Windows, you may see a choice of ActivePerl and Strawberry Perl. If you're a beginner, choose ActivePerl. If you have experience with Perl, you may decide to go with Strawberry Perl. The versions are similar, so it's entirely up to you.
 Follow the links to download the installer and then run it. Accept all the defaults and after a few minutes, Perl is installed. Check by opening up the command prompt/terminal session window and repeating the
