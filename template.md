@@ -59,6 +59,7 @@ Remember to change the version in the above commands according to the version yo
 - Example codes
 
 - Things that are specific to this language?
+
     Perl gives you safety and security. With most languages that are interpreted, somebody can read your source code. With a language that’s typically compiled to a native binary, it’s possible take the binary and reverse engineer it to get something vaguely similar to source code, and (although it’s much more difficult than with the original source code) figure out what algorithms were used and how it works. Perl has no such weakness. Even starting from the original source code, there’s no danger of them figuring out how your code works (or realizing that the code really doesn’t work correctly at all).
    Perl’s grammar is almost unbelievably advanced. Perl is one of only a tiny number of languages that can’t be parsed statically. 
 Perl simply cannot be parsed statically, so it’s clearly much more advanced!
