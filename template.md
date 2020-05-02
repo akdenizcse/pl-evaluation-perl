@@ -1,5 +1,4 @@
 Programming Language Name
-
 Perl
 
 - History of the language: who/when invented it, which languages influenced it, etc.
