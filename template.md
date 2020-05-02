@@ -20,7 +20,7 @@ perl -v
 command.
 You should see a message indicating you have installed Perl correctly and are ready to write your first script.
 
- For Unix/Linux
+ For Unix/Linux:
  Open a Web browser and go to https://www.perl.org/get.html
 
 Follow the link to download zipped source code available for Unix/Linux.
