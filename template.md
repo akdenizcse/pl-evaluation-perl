@@ -4,6 +4,30 @@ Perl
 
 - History of the language: who/when invented it, which languages influenced it, etc.
 
+Perl was originally developed by Larry Wall in 1987 as a general-purpose Unix scripting language to make report processing easier.
+Since then, it has undergone many changes and revisions.
+
+Originally its creator, Larry Wall, had chosen to name it Pearl as he felt that it was a short and memorable word with positive associations. However, just before the language was due to be released he discovered that there was already an existing programming language named PEARL. At this point he changed the spelling and then released it as Perl.
+
+Wall began his work on developing Perl prior to 1987, with the first version finally being released at the end of that year. For the next couple of years of development, the Perl language progressed at a rapid pace and Perl 2 was soon published in 1988, an improvement on the original. The following year Perl 3 was released.
+
+Perl 2 - an improvement of the perl 1
+Perl 3 - held support for binary streams
+Perl 5 - for system administration, network programming, finance, bioinformatics
+
+The beginning stages of Perl 5 went on from mid-1993 into 1994 and, it was during this time that the Perl 5-porters mailing list became established. The point of this module was to create a better coordination system between Perl 5 and other platforms. To this day it is still one of the top areas for development and maintenance of Perl 5.
+
+Over the years Perl 5 has seen significant improvements. 1995 and 1996 saw Perl 5 being released with new prototype features, which allowed any programmers of the modules to be able to make subroutines.
+- 1996 saw Perl 5 released alongside a security release.
+- The next release of Perl 5 occurred in 1997 and contained a UNIVERSAL package. This new package provided Perl with the base for which all classes were derived automatically, and offered programmers the ability to use different versions of the modules in the system. 
+- Perl 5.0005 was made public in 1998 and once again contained a number of enhancements, this time to the regex engine, backends for other modules, additional core modules plus support for other operating systems such as BeOS.
+- The year 2000 saw the release of Perl 5.6. This release contained some very significant changes that included such additions as 64-bit support, unicodes, support of files that were over 2Gb and the Perl keyword.
+- With Perl 6 underway, 2001 saw Apocalypses coming into development, specifically to link in with Perl 6. 
+- Just after this, Perl 5.8 was released, and since that 2002 release, Perl 5 has undergone yearly updates. Even by 2013, the Perl 5.8 version was still one of the most popular.
+
+Influenced;
+Perl, which has sometimes been said to stand for “practical extraction and report language,” was influenced by existing programming languages—such as C, BASIC, and AWK.
+
 - Why was it invented?
 
 - When/why shall we use it?
