@@ -59,7 +59,7 @@ Remember to change the version in the above commands according to the version yo
 
 - Example codes
 
-Factorial Code:
+-Factorial Code:
 
 $number = 5; # Change the number here 
 
@@ -73,8 +73,7 @@ for( $i = 1; $i <= $number ; $i=$i+1 ){
 print "Factorial of $number is: $fact"
 
 
-
-Calculator Code:
+-Calculator Code:
 
  my $operation;
  
