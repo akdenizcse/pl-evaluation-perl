@@ -59,12 +59,19 @@ Remember to change the version in the above commands according to the version yo
 
 - Example codes
 Calculator Code:
+
  my $operation;
+ 
  my $int;
+ 
  my $int2;
+ 
  my $answer;
+ 
  my $runagain;
- calculator(); 
+ 
+ calculator();
+ 
  sub calculator {
  print "What operation (Add, Sub, Mult, Divd) do you want to do? ";
  chomp($operation = <>);
