@@ -209,6 +209,69 @@ for ($i=$start; $i <= $stop; $i++) {
     if(system($cmd)) { print "over failed\n"; }
 }
 
+- Finding Files
+
+if ($#ARGV != 0) {
+    print "usage: findfile filename\n";
+    exit;
+}
+$filename = $ARGV[0];
+$dir = `pwd`;
+chop($dir);
+&searchDirectory($dir);
+
+sub searchDirectory {
+    local($dir);
+    local(@lines);
+    local($line);
+    local($file);
+    local($subdir);
+
+    $dir = $_[0];
+
+    # check for permission
+    if(-x $dir) {
+
+	# search this directory
+	@lines = `cd $dir; ls -l | grep $filename`;
+	foreach $line (@lines) {
+	    $line =~ /\s+(\S+)$/;
+	    $file = $1;
+	    print "Found $file in $dir\n";
+	}
+	
+	# search any sub directories
+	@lines = `cd $dir; ls -l`;
+	foreach $line (@lines) {
+	    if($line =~ /^d/) {
+		$line =~ /\s+(\S+)$/;
+		$subdir = $dir."/".$1;
+		&searchDirectory($subdir);
+	    }
+	}
+    }
+}
+
+- Finding Users
+if ($#ARGV != 0) {
+    print "usage: finduser username\n";
+    exit;
+}
+
+$username = $ARGV[0];
+$machines = "insanity ".`systems sgi`;
+chop($machines);
+@machines = split(/ /,$machines);
+@machines = sort(@machines);
+
+foreach $machine (@machines) {
+    
+    if(`rusers $machine | grep $username`) {
+	print "$username logged on $machine\n";
+    }
+}
+
+
 
 - Things that are specific to this language?
 
