@@ -11,9 +11,9 @@ Originally its creator, Larry Wall, had chosen to name it Pearl as he felt that 
 
 Wall began his work on developing Perl prior to 1987, with the first version finally being released at the end of that year. For the next couple of years of development, the Perl language progressed at a rapid pace and Perl 2 was soon published in 1988, an improvement on the original. The following year Perl 3 was released.
 
-Perl 2 - an improvement of the perl 1
-Perl 3 - held support for binary streams
-Perl 5 - for system administration, network programming, finance, bioinformatics
+- Perl 2 - an improvement of the perl 1
+- Perl 3 - held support for binary streams
+- Perl 5 - for system administration, network programming, finance, bioinformatics
 
 The beginning stages of Perl 5 went on from mid-1993 into 1994 and, it was during this time that the Perl 5-porters mailing list became established. The point of this module was to create a better coordination system between Perl 5 and other platforms. To this day it is still one of the top areas for development and maintenance of Perl 5.
 
