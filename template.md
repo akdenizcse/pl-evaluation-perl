@@ -58,6 +58,7 @@ make install
 Remember to change the version in the above commands according to the version you have downloaded. If you use different version ,you should change 5.24.1.
 
 - Example codes
+
 Factorial Code:
 
 $number = 5; # Change the number here 
@@ -70,6 +71,8 @@ for( $i = 1; $i <= $number ; $i=$i+1 ){
 }
 
 print "Factorial of $number is: $fact"
+
+
 
 
 Calculator Code:
