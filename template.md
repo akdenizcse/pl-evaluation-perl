@@ -196,7 +196,6 @@ $outbase = $ARGV[2];
 $start = $ARGV[3];
 $stop = $ARGV[4];
 
-# for each image
 for ($i=$start; $i <= $stop; $i++) {
 
     # pad numbers
