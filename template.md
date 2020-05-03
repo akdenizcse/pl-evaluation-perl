@@ -158,6 +158,58 @@ print "Factorial of $number is: $fact"
   
  	}
  }
+ 
+ 
+ - Renaming Files
+ 
+if ($#ARGV != 3) {
+    print "usage: rename old new start stop\n";
+    exit;
+}
+
+$old = $ARGV[0];
+$new = $ARGV[1];
+$start = $ARGV[2];
+$stop = $ARGV[3];
+
+for ($i=$start; $i <= $stop; $i++) {
+
+    $num = $i;
+    if($i<10) {	$num = "00$i"; }
+    elsif($i<100) { $num = "0$i"; }
+
+    $cmd = "mv $old.$num $new.$num";
+    print $cmd."\n";
+    if(system($cmd)) { print "rename failed\n"; }
+}
+
+- Image Processing
+
+if ($#ARGV != 4) {
+ print "usage: compem bg.rgb inbase outbase startNum stopNum\n";
+ exit;
+}
+
+$bg = $ARGV[0];
+$inbase = $ARGV[1];
+$outbase = $ARGV[2];
+$start = $ARGV[3];
+$stop = $ARGV[4];
+
+# for each image
+for ($i=$start; $i <= $stop; $i++) {
+
+    # pad numbers
+    $num = $i;
+    if($i<10) { $num = "00$i"; }
+    elsif($i<100) { $num = "0$i"; }
+
+    # call unix command "over"
+    $cmd = "over $bg $inbase.$num $outbase.$num 0 0";
+    print $cmd."\n";
+    if(system($cmd)) { print "over failed\n"; }
+}
+
 
 - Things that are specific to this language?
 
