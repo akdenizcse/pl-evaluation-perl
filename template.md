@@ -58,6 +58,35 @@ make install
 Remember to change the version in the above commands according to the version you have downloaded. If you use different version ,you should change 5.24.1.
 
 - Example codes
+Calculator Code:
+ my $operation;
+ my $int;
+ my $int2;
+ my $answer;
+ my $runagain;
+ calculator(); 
+ sub calculator {
+ print "What operation (Add, Sub, Mult, Divd) do you want to do? ";
+ chomp($operation = <>);
+ print "Enter the first number: ";chomp($int = <>);
+ print "Enter the second number: ";chomp($int2 = <>);
+ if ($operation =~ /^a/) {
+ 	$answer = $int + $int2;
+  } elsif ($operation =~ /^s/) {
+  $answer = $int - $int2;
+ 	} elsif ($operation =~ /^m/) {
+  	$answer = $int * $int2;
+  } elsif ($operation =~ /^d/) {
+  	$answer = $int / $int2;
+  	}
+  print "The answer is $answer\n";
+  print "Do you want to run this again? ";chomp($runagain = <>);
+  if ($runagain =~ /^y/) {
+ 	calculator();
+ 	} else {
+  print "goodbye\n";
+ 	}
+ }
 
 - Things that are specific to this language?
 
