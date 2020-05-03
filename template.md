@@ -28,7 +28,12 @@ Over the years Perl 5 has seen significant improvements. 1995 and 1996 saw Perl 
 Influenced;
 Perl, which has sometimes been said to stand for “practical extraction and report language,” was influenced by existing programming languages—such as C, BASIC, and AWK.
 
+
 - Why was it invented?
+
+Perl was originally developed to make report processing easier.
+Before Perl, almost all text processing on Unix-like systems was done with a conglomeration of tools that included AWK. Larry wanted to fill the void between "manipulexity" (the ability of languages like C to "get into the innards of things") and "whipuptitude" (the property of programming languages like AWK that allows programmers to quickly write useful programs). Thus, Perl, the Practical Extraction and Report Language was born.
+
 
 - When/why shall we use it?
 
